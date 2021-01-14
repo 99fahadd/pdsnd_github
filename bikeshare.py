@@ -159,9 +159,9 @@ def trip_duration_stats(df):
     mins, sec = divmod(average_duration, 60)
     if mins > 60:
         hrs, mins = divmod(mins, 60)
-        print(f"\nAverage trip duration: {hrs} hours, {mins} minutes and {sec} seconds.")
+        print("\nAverage trip duration: {} hours, {} minutes and {} seconds.".format(hrs,mins,sec))
     else:
-        print(f"\nAverage trip duration: {mins} minutes and {sec} seconds.")
+        print("\nAverage trip duration: {} minutes and {} seconds.".format(mins,sec))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
