@@ -1,15 +1,24 @@
 ### Date created
-Include the date you created this project and README file.
+January 14,2021
 
-### Project Title
+### Bikeshare Project
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+This project gives some statistics information about three different cities:
+*Chicago
+*New York City
+*Washington
+
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Repositories:
+*https://github.com/udacity/course-collaboration-travel-plans.git
+*https://github.com/GoogleChrome/lighthouse.git
 
