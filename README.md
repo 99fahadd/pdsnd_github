@@ -21,4 +21,5 @@ washington.csv
 Repositories:
 *https://github.com/udacity/course-collaboration-travel-plans.git
 *https://github.com/GoogleChrome/lighthouse.git
+*https://github.com/udacity/frontend-nanodegree-styleguide.git
 
