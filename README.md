@@ -16,6 +16,7 @@ bikeshare.py
 chicago.csv
 new_york_city.csv
 washington.csv
+https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 ### Credits
 Repositories:
