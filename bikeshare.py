@@ -104,11 +104,11 @@ def time_stats(df):
 
     # TO DO: display the most common month
     popular_month = df['month'].mode()[0]
-    print(f"Most Popular Month (1 = January,...,6 = June): {popular_month}")
+    print("Most Popular Month (1 = January,...,6 = June): {}".format(popular_month))
 
     # TO DO: display the most common day of week
     popular_day = df['day_of_week'].mode()[0]
-    print(f"\nMost Popular Day: {popular_day}")
+    print("\nMost Popular Day: {}".format(popular_day))
 
     # TO DO: display the most common start hour
     df['hour'] = df['Start Time'].dt.hour
@@ -159,9 +159,9 @@ def trip_duration_stats(df):
     mins, sec = divmod(average_duration, 60)
     if mins > 60:
         hrs, mins = divmod(mins, 60)
-        print(f"\nAverage trip duration: {hrs} hours, {mins} minutes and {sec} seconds.")
+        print("\nAverage trip duration: {} hours, {} minutes and {} seconds.".format(hrs,mins,sec))
     else:
-        print(f"\nAverage trip duration: {mins} minutes and {sec} seconds.")
+        print("\nAverage trip duration: {} minutes and {} seconds.".format(mins,sec))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
