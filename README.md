@@ -2,14 +2,17 @@
 January 14,2021
 
 ### Bikeshare Project
-Replace the Project Title
+* Programming Lnguage: Python
+* The liberaries:
+  * NumPy
+  * Pandas
+  * Time
 
 ### Description
 This project gives some statistics information about three different cities:
-*Chicago
-*New York City
-*Washington
-
+* Chicago
+* New York City
+* Washington
 
 ### Files used
 bikeshare.py
@@ -20,7 +23,7 @@ https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 ### Credits
 Repositories:
-*https://github.com/udacity/course-collaboration-travel-plans.git
-*https://github.com/GoogleChrome/lighthouse.git
-*https://github.com/udacity/frontend-nanodegree-styleguide.git
+* https://github.com/udacity/course-collaboration-travel-plans.git
+* https://github.com/GoogleChrome/lighthouse.git
+* https://github.com/udacity/frontend-nanodegree-styleguide.git
 
